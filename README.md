@@ -1,4 +1,4 @@
-# Scouting-App
+# Scouting-App by Darmik N, Amal E, and Rahul T
 
 
 Running the FRC Scouting App
