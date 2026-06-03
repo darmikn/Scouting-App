@@ -1,4 +1,6 @@
 # Scouting-App
+Here are the combined setup instructions again, now with the port as 5001.
+
 Running the FRC Scouting App
 1. Install Python
 Go to python.org/downloads and click the big "Download Python" button. Run the installer.
@@ -35,7 +37,15 @@ Wait for it to finish — 30–60 seconds of text scrolling. (Needs internet.)
 Mac: python3 app.py
 Windows: python app.py
 
-You'll see a line like Running on http://127.0.0.1:5000. Leave this window open — closing it stops the app.
+You'll see a line like Running on http://127.0.0.1:5001. Leave this window open — closing it stops the app.
 7. Open it in a browser
-Go to http://localhost:5000
+Go to http://localhost:5001
+
+Once it's running
+
+The app starts with no data. Use the Scouting Form tab to add a few entries, then check Data Analysis.
+You can also download the scouting_data.csv and drag it into the "data" folder inside of the folder created by extracting the zip file.
+Stop the app: click the terminal and press Ctrl + C.
+Run it again later: nothing to reinstall — just open the terminal, do step 4 (cd into the folder), and step 6 (start command).
+
 
