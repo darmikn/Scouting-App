@@ -1,7 +1,8 @@
 # Scouting-App
-Here are the combined setup instructions again, now with the port as 5001.
+
 
 Running the FRC Scouting App
+
 **1. Install Python**
 Go to python.org/downloads and click the big "Download Python" button. Run the installer.
 
