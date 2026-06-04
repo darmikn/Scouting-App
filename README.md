@@ -76,7 +76,7 @@ pip3 install -r requirements.txt     # Mac
 pip install -r requirements.txt      # Windows
 ```
 
-Wait for it to finish — about 30–60 seconds of text scrolling.
+Wait for it to finish.
 
 > **If that command fails**, install the two libraries directly instead:
 > ```bash
@@ -112,7 +112,7 @@ http://localhost:5001
 
 ## Using the app
 
-The app starts with **no data**. There are three tabs:
+The app starts with **no data**, but if you want premade data, download **scouting_data.csv** and move it into the data folder inside of the frc_scouting folder. There are three tabs:
 
 - **Scouting Form** — log one match at a time (team, match #, balls scored,
   defense/speed/climb ratings). Click **Submit Entry** to save.
@@ -155,24 +155,3 @@ To **stop** the app: click the terminal and press **Ctrl + C**.
 Your scouting entries are saved in **`data/scouting_data.csv`** inside the
 project folder. To move your data to another computer, copy that one file into
 the new computer's `data/` folder. A fresh download starts empty.
-
----
-
-## Project layout
-
-```
-frc_scouting/
-├── app.py                 Flask routes, CSV handling, rankings
-├── robot.py               The Robot class (per-team stats + reports)
-├── charts.py              matplotlib chart generators
-├── requirements.txt       The library list (Flask + matplotlib)
-├── data/
-│   └── scouting_data.csv  Your saved entries (created on first run)
-├── static/css/style.css   Dark / cyan theme
-└── templates/             The HTML pages
-    ├── base.html
-    ├── scouting_form.html
-    ├── data_analysis.html
-    ├── admin.html
-    └── team_detail.html
-```
